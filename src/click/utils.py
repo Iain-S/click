@@ -232,7 +232,7 @@ class KeepOpenFile:
 
 
 def echo(
-    message: t.Any | None = None,
+    message: t.Any = None,
     file: t.IO[t.Any] | None = None,
     nl: bool = True,
     err: bool = False,
